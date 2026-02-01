@@ -1,0 +1,13 @@
+# Ignore IDE settings and generated databases
+.vscode/
+**/.vscode/
+*.db
+
+# Ignore ROS 2 workspace build artifacts
+build/
+install/
+log/
+
+# Python temporary files
+__pycache__/
+*.pyc
